@@ -6,7 +6,6 @@
 using Huddle.BotWebApp.Models;
 using Huddle.BotWebApp.Utils;
 using Huddle.Common;
-using Microsoft.Graph;
 using Microsoft.SharePoint.Client;
 using System.Linq;
 using System.Threading.Tasks;
@@ -75,7 +74,7 @@ namespace Huddle.BotWebApp.SharePoint
             }
         }
 
-        public async Task CreateMetricIdeaAsync(int? metricId, PlannerTask task, string bucket, string taskURL)
+        public async Task CreateMetricIdeaAsync(int? metricId, Microsoft.Graph.PlannerTask task, string bucket, string taskURL)
         {
             using (var clientContext = await AuthenticationHelper.GetAppOnlySharePointClientContextAsync())
             {

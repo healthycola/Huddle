@@ -1,0 +1,22 @@
+Huddle App Id: 60322006-7aa5-4f6f-bcf5-2797baf55239
+
+Directory Id: 55076ed8-68a7-49f2-9033-686df10b243e
+BotClientId: d9da50f5-651e-4a27-b75e-d6268677c5ef
+BotSecret: 6gC8NvvWmbJupD/qjCo3lxv/zUgZUcQbGrvLAvBbJso=
+
+MetricClientId: 98a05277-4735-4df5-b6da-883735e189f2
+MetricsSecret: N0c4eq7FYzpGv4j/kry1Fr8gUANHTwt6Livgp68vvK4=
+
+GraphClientId: d7e60477-99c2-4e1c-9a67-1598167f7a1a
+GraphSecret: YWZg15ED+bQfZR1NkYn2gUq5CaoJjafyQ/jvG7Ou3U8=
+
+AppId: 5711db85-67bf-4fde-bc54-5fd08fda1677
+MSFT Generated Password (Microsoft App Password): pwulGETI42}vxfQKM697@=|
+
+Copied GIt PAT: 62cc84cc2254b34b0dac6671ec3c636205cbf337
+
+BaseURL: https://huddle-bot-53xoos.azurewebsites.net
+ReplyURL: https://huddle-bot-53xoos.azurewebsites.net/
+AdminConsent: https://huddle-bot-53xoos.azurewebsites.net/admin/consent
+
+MicrosoftTeamsChannel: https://teams.microsoft.com/l/chat/0/0?users=28:5711db85-67bf-4fde-bc54-5fd08fda1677

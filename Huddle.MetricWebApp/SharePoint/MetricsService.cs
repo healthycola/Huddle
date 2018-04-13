@@ -6,7 +6,6 @@
 using Huddle.Common;
 using Huddle.MetricWebApp.Infrastructure;
 using Huddle.MetricWebApp.Models;
-using Microsoft.Graph;
 using Microsoft.SharePoint.Client;
 using System;
 using System.Collections.Generic;
@@ -253,7 +252,7 @@ namespace Huddle.MetricWebApp.SharePoint
                     var task = await graphServiceClient.Planner.Tasks[taskId]
                     .Request().GetAsync();
                     await graphServiceClient.Planner.Tasks[taskId]
-                     .Request(new[] { new Microsoft.Graph.HeaderOption("If-Match", task.GetEtag()) })
+                     .Request(new[] { new Microsoft.Graph.HeaderOption("If-Match", task.Id) })
                      .DeleteAsync();
                     items[i].DeleteObject();
                     clientContext.ExecuteQuery();

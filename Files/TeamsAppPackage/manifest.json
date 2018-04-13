@@ -2,13 +2,13 @@
   "$schema": "https://statics.teams.microsoft.com/sdk/v1.0/manifest/MicrosoftTeams.schema.json",
   "manifestVersion": "1.0",
   "version": "1.0.0",
-  "id": "<MicrosoftAppId>",
+  "id": "5711db85-67bf-4fde-bc54-5fd08fda1677",
   "packageName": "com.canviz.huddle",
   "developer": {
     "name": "CANVIZ Consulting",
     "websiteUrl": "https://www.canviz.com/",
-    "privacyUrl": "https://<MetricWebAppDomain>/tab/privacy",
-    "termsOfUseUrl": "https://<MetricWebAppDomain>/tab/termsofuse"
+    "privacyUrl": "https://huddle-metric-53xoos.azurewebsites.net/tab/privacy",
+    "termsOfUseUrl": "https://huddle-metric-53xoos.azurewebsites.net/tab/termsofuse"
   },
   "name": {
     "short": "Huddle App",
@@ -25,7 +25,7 @@
   "accentColor": "#EBEBEB",
   "configurableTabs": [
     {
-      "configurationUrl": "https://<MetricWebAppDomain>/tab/configure",
+      "configurationUrl": "https://huddle-metric-53xoos.azurewebsites.net/tab/configure",
       "canUpdateConfiguration": true,
       "scopes": [
         "team"
@@ -37,7 +37,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<MetricWebAppDomain>",
-    "*.<MetricWebAppDomain>"
+    "huddle-metric-53xoos.azurewebsites.net",
+    "*.huddle-metric-53xoos.azurewebsites.net"
   ]
 }
